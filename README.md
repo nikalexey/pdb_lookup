@@ -1,2 +1,2 @@
 # pdb_lookup
-Looking for pdb information into executable file
+Looking for pdb information into executable files

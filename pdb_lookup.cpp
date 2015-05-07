@@ -89,7 +89,7 @@ int _tmain(int argc, _TCHAR* argv[])
 					{
 						pdb_filename = reinterpret_cast<LPCSTR>(pCvInfo->PdbFileName);
 
-						pdb_guid = (boost::format("%X%X%X%X%X%X%X%X%X%X%X%d")
+						pdb_guid = (boost::format("%08X%04X%04X%02X%02X%02X%02X%02X%02X%02X%02X%d")
 							% pCvInfo->Signature.Data1
 							% pCvInfo->Signature.Data2
 							% pCvInfo->Signature.Data3

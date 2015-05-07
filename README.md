@@ -2,12 +2,13 @@
 
 Looking for pdb information into executable files
 
-using: pdb_lookup.exe <file>
+```using: pdb_lookup.exe <file>```
 
 simple output:
+```
 
-path to pdb (from input file)
-
-pdb guid
-
+file name   : <input file name>
+pdb file    : <pdb file name> (with path if exist)
+pdb guid    : <guid> (for looking on symbol server)
 etc.
+```

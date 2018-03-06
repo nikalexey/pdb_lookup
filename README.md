@@ -10,5 +10,5 @@ simple output:
 file name   : <input file name>
 pdb file    : <pdb file name> (with path if exist)
 pdb guid    : <guid> (for looking on symbol server)
-etc.
+etc
 ```
